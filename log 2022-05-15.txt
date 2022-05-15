@@ -1,0 +1,9 @@
+[2022-05-15 17:12:19.987399] Вызвана функция: <function get_articles at 0x000002DFA1A577F0> с аргументами: (['дизайн', 'фото', 'web', 'python'], <fake_headers.Headers object at 0x000002DFA1ADFFD0>, 'https://habr.com/ru/all/', 'https://habr.com') и {}
+[2022-05-15 17:12:20.391252] Возвращено значение: "По указанным ключевым словам совпадений не найдено"
+[2022-05-15 17:13:05.555129] Вызвана функция: <function get_articles at 0x000002683FF89000> с аргументами: () и {}
+[2022-05-15 17:14:11.785443] Вызвана функция: <function get_articles at 0x000002001468B7F0> с аргументами: (['дизайн', 'фото', 'web', 'python'], <fake_headers.Headers object at 0x0000020011D833D0>, 'https://habr.com/ru/all/', 'https://habr.com') и {}
+[2022-05-15 17:14:33.464885] Вызвана функция: <function get_articles at 0x0000026CD6DF9000> с аргументами: () и {}
+[2022-05-15 17:15:32.944722] Вызвана функция: <function get_articles at 0x000002264E7477F0> с аргументами: (['дизайн', 'фото', 'web', 'python'], <fake_headers.Headers object at 0x000002264BE533D0>, 'https://habr.com/ru/all/', 'https://habr.com') и {}
+[2022-05-15 17:17:02.248489] Вызвана функция: <function get_articles at 0x000002320CA977F0> с аргументами: (['дизайн', 'фото', 'web', 'python'], <fake_headers.Headers object at 0x000002320A1D33D0>, 'https://habr.com/ru/all/', 'https://habr.com') и {}
+[2022-05-15 17:20:23.430474] Вызвана функция: <function get_articles at 0x000002CC6CD09510> с аргументами: (['дизайн', 'фото', 'web', 'python'], <fake_headers.Headers object at 0x000002CC6C9733D0>, 'https://habr.com/ru/all/', 'https://habr.com') и {}
+[2022-05-15 17:22:22.785781] Вызвана функция: <function get_articles at 0x000001BDF5399510> с аргументами: (['дизайн', 'фото', 'web', 'python'], <fake_headers.Headers object at 0x000001BDF790FFD0>, 'https://habr.com/ru/all/', 'https://habr.com') и {}

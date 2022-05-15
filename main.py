@@ -1,8 +1,12 @@
 import bs4
 import requests as r
-from arguments import KEYWORDS, header, url, title_url
 
-def get_articles():
+from arguments import KEYWORDS, header, url, title_url, parent_dir
+from logger import logger
+
+
+@logger(parent_dir)
+def get_articles(KEYWORDS, header, url, title_url):
     response = r.get(url, headers=header.generate())
     response.raise_for_status()
     text = response.text
@@ -18,7 +22,11 @@ def get_articles():
                 href = title_url + article.find(class_='tm-article-snippet__title-link').attrs['href']
                 title = article.find('h2').find('span').text
                 title_list.append(f'{date} - {title} - {href}')
-    print(*(set(title_list)), sep='\n')
+    if not title_list:
+        return f'"По указанным ключевым словам совпадений не найдено"'
+    else:
+        return title_list
+
 
 if __name__ == '__main__':
-    get_articles()
+    get_articles(KEYWORDS, header, url, title_url)
